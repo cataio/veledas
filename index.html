@@ -1,104 +1,130 @@
-filename,content
-index.html,"""<!DOCTYPE html>
-<html lang='en'>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <meta charset='UTF-8'>
-  <title>Veleda Security</title>
-  <style>
-    /* Dark background, monospace font */
-    body {
-      margin: 0;
-      padding: 0;
-      background-color: #111;
-      color: #ccc;
-      font-family: 'Courier New', Courier, monospace;
-      line-height: 1.6;
-    }
-    main {
-      max-width: 800px;
-      margin: auto;
-      padding: 2em;
-    }
-    nav a {
-      color: #6aa6f8;
-      text-decoration: none;
-      margin-right: 1em;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    h1, h2, h3 {
-      color: #fff;
-    }
-    hr {
-      border: none;
-      border-top: 1px solid #333;
-      margin: 2em 0;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veleda Security</title>
+    <meta name="description" content="Veleda Security - Guardians of the Digital Frontier. We specialize in detecting credential abuse and uncovering lateral movement.">
+    <style>
+        :root {
+            --background-color: #111;
+            --text-color: #ccc;
+            --link-color: #6aa6f8;
+            --heading-color: #fff;
+            --border-color: #333;
+            --font-family: 'Courier New', Courier, monospace;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            font-family: var(--font-family);
+            line-height: 1.6;
+        }
+
+        main {
+            max-width: 800px;
+            margin: auto;
+            padding: 2em;
+        }
+
+        nav a {
+            color: var(--link-color);
+            text-decoration: none;
+            margin-right: 1em;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: var(--heading-color);
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid var(--border-color);
+            margin: 2em 0;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 2em;
+        }
+    </style>
 </head>
+
 <body>
-  <main>
-    <h1>Veleda Security</h1>
-    <h2>Guardians of the Digital Frontier</h2>
+    <main>
+        <header>
+            <h1>Veleda Security</h1>
+            <h2>Guardians of the Digital Frontier</h2>
+            <nav aria-label="Main Navigation">
+                <a href="#about">About</a>
+                <a href="#solutions">Solutions</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
 
-    <nav>
-      <a href='#about'>About</a>
-      <a href='#solutions'>Solutions</a>
-      <a href='#contact'>Contact</a>
-    </nav>
+        <section>
+            <p>
+                In the complex world of cyber threats, Veleda Security shines a light on the hidden dangers.
+                Our innovative solutions specialize in detecting credential abuse and uncovering lateral movement.
+                Our advanced tech stack empowers your organization with the insights and tools needed to counter these threats.
+            </p>
+        </section>
 
-    <p>
-      In the complex world of cyber threats, Veleda Security shines a light on the hidden dangers.
-      Our innovative solutions specialize in detecting credential abuse and uncovering lateral movement.
-      Our advanced tech stack empowers your organization with the insights and tools needed to counter these threats.
-    </p>
+        <hr />
 
-    <hr/>
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">About Us</h2>
+            <p>
+                At Veleda Security, we blend cutting-edge technology with human insight to provide comprehensive security solutions.
+                Our residency-based services are backed by highly skilled cybersecurity analysts, engineers, and architects, ready to
+                tailor solutions for your unique challenges. From Application Security Monitoring to Security Operations Center (SOC)
+                services, we're committed to ensuring your digital safety.
+            </p>
+        </section>
 
-    <section id='about'>
-      <h2>About Us</h2>
-      <p>
-        At Veleda Security, we blend cutting-edge technology with human insight to provide comprehensive security solutions.
-        Our residency-based services are backed by highly skilled cybersecurity analysts, engineers, and architects, ready to
-        tailor solutions for your unique challenges. From Application Security Monitoring to Security Operations Center (SOC)
-        services, we're committed to ensuring your digital safety.
-      </p>
-    </section>
+        <hr />
 
-    <hr/>
+        <section id="solutions" aria-labelledby="solutions-heading">
+            <h2 id="solutions-heading">Our Solutions</h2>
+            <p><strong>Unmasking Threats:</strong> Our flagship service that exposes hidden vulnerabilities:</p>
+            <ul>
+                <li>Credential Abuse Detection</li>
+                <li>Lateral Movement Tracking</li>
+                <li>Incident Response & Analysis</li>
+            </ul>
+            <p>
+                <strong>Tech Stack:</strong> Azure Sentinel, Azure AD, NGFW, Office 365 Defender, CrowdStrike
+            </p>
+            <p>
+                <strong>SOC Services:</strong> We provide 24/7 monitoring, proactive threat hunting, and unified reporting
+                to safeguard your organization around the clock.
+            </p>
+        </section>
 
-    <section id='solutions'>
-      <h2>Our Solutions</h2>
-      <p><strong>Unmasking Threats:</strong> Our flagship service that exposes hidden vulnerabilities:</p>
-      <ul>
-        <li>Credential Abuse Detection</li>
-        <li>Lateral Movement Tracking</li>
-        <li>Incident Response & Analysis</li>
-      </ul>
-      <p>
-        <strong>Tech Stack:</strong> Azure Sentinel, Azure AD, NGFW, Office 365 Defender, CrowdStrike
-      </p>
-      <p>
-        <strong>SOC Services:</strong> We provide 24/7 monitoring, proactive threat hunting, and unified reporting
-        to safeguard your organization around the clock.
-      </p>
-    </section>
+        <hr />
 
-    <hr/>
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact Us</h2>
+            <p>Email: <a href="mailto:info@veledas.com">info@veledas.com</a></p>
+            <p>Phone: +1 (XXX) XXX-XXXX</p>
+        </section>
 
-    <section id='contact'>
-      <h2>Contact Us</h2>
-      <p>Email: info@veledas.com</p>
-      <p>Phone: +1 (XXX) XXX-XXXX</p>
-    </section>
+        <hr />
 
-    <hr/>
-
-    <footer>
-      <p>&copy; 2025 Veleda Security</p>
-    </footer>
-  </main>
+        <footer>
+            <p>&copy; 2025 Veleda Security</p>
+        </footer>
+    </main>
 </body>
+
 </html>
-"""
