@@ -1,129 +1,150 @@
-<!DOCTYPE html>
-<html lang="en">
-
+filename,content
+index.html,"""<!DOCTYPE html>
+<html lang='en'>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Veleda Security</title>
-    <meta name="description" content="Veleda Security - Guardians of the Digital Frontier. We specialize in detecting credential abuse and uncovering lateral movement.">
-    <style>
-        :root {
-            --background-color: #111;
-            --text-color: #ccc;
-            --link-color: #6aa6f8;
-            --heading-color: #fff;
-            --border-color: #333;
-            --font-family: 'Courier New', Courier, monospace;
-        }
-
-        body {
-            margin: 0;
-            padding: 0;
-            background-color: var(--background-color);
-            color: var(--text-color);
-            font-family: var(--font-family);
-            line-height: 1.6;
-        }
-
-        main {
-            max-width: 800px;
-            margin: auto;
-            padding: 2em;
-        }
-
-        nav a {
-            color: var(--link-color);
-            text-decoration: none;
-            margin-right: 1em;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
-        }
-
-        h1,
-        h2,
-        h3 {
-            color: var(--heading-color);
-        }
-
-        hr {
-            border: none;
-            border-top: 1px solid var(--border-color);
-            margin: 2em 0;
-        }
-
-        footer {
-            text-align: center;
-            margin-top: 2em;
-        }
-    </style>
+  <meta charset='UTF-8'>
+  <title>Veleda Security</title>
+  <style>
+    /* Dark background, monospace font */
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #111;
+      color: #ccc;
+      font-family: 'Courier New', Courier, monospace;
+      line-height: 1.6;
+    }
+    main {
+      max-width: 800px;
+      margin: auto;
+      padding: 2em;
+    }
+    nav a {
+      color: #6aa6f8;
+      text-decoration: none;
+      margin-right: 1em;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    h1, h2, h3 {
+      color: #fff;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #333;
+      margin: 2em 0;
+    }
+  </style>
 </head>
-
 <body>
-    <main>
-        <header>
-            <h1>Veleda Security</h1>
-            <h2>Guardians of the Digital Frontier</h2>
-            <nav aria-label="Main Navigation">
-                <a href="#about">About</a>
-                <a href="#solutions">Solutions</a>
-                <a href="#contact">Contact</a>
-            </nav>
-        </header>
+  <main>
+    <h1>Veleda Security</h1>
+    <h2>Boutique Cybersecurity Engineering</h2>
 
-        <section>
-            <p>
-                In the complex world of cyber threats, Veleda Security shines a light on the hidden dangers.
-                Our innovative solutions specialize in detecting credential abuse and uncovering lateral movement.
-                Our advanced tech stack empowers your organization with the insights and tools needed to counter these threats.
-            </p>
-        </section>
+    <nav>
+      <a href='#about'>About</a>
+      <a href='#services'>Services</a>
+      <a href='#contact'>Contact</a>
+    </nav>
 
-        <hr />
+    <p>
+      At Veleda Security, we believe in a personalized, hands-on approach to cybersecurity. 
+      Our team is distributed across the United States, with primary offices in New York 
+      and Boston, yet we support organizations on a global scale. We engineer solutions 
+      that match your unique environment and risk profile. Whether it's maturing 
+      application security or configuring end-to-end visibility, our aim is to help 
+      organizations adopt the best technical and governance practices.
+    </p>
 
-        <section id="about" aria-labelledby="about-heading">
-            <h2 id="about-heading">About Us</h2>
-            <p>
-                At Veleda Security, we blend cutting-edge technology with human insight to provide comprehensive security solutions.
-                Our residency-based services are backed by highly skilled cybersecurity analysts, engineers, and architects, ready to
-                tailor solutions for your unique challenges. From Application Security Monitoring to Security Operations Center (SOC)
-                services, we're committed to ensuring your digital safety.
-            </p>
-        </section>
+    <hr/>
 
-        <hr />
+    <section id='about'>
+      <h2>About Us</h2>
+      <p>
+        Veleda Security started with the idea that every organization has unique challenges. 
+        We tailor everything: from code-to-cloud security, to real-world threat scenarios, 
+        to stakeholder alignment and continuous training. Our engineers, architects, and 
+        analysts focus on delivering measurable value, not just handing over documentation. 
+      </p>
+      <p>
+        We also design governance programs to ensure that security tools and methods 
+        stay relevant over time. Our methodology emphasizes developer enablement, 
+        leadership engagement, and tangible results. We’ve helped clients integrate 
+        SAST, SCA, and secrets detection tools (like Snyk and Trufflehog) into CI/CD 
+        pipelines, and we've guided them in adopting frameworks such as NIST SSDF 
+        and OWASP best practices.
+      </p>
+    </section>
 
-        <section id="solutions" aria-labelledby="solutions-heading">
-            <h2 id="solutions-heading">Our Solutions</h2>
-            <p><strong>Unmasking Threats:</strong> Our flagship service that exposes hidden vulnerabilities:</p>
-            <ul>
-                <li>Credential Abuse Detection</li>
-                <li>Lateral Movement Tracking</li>
-                <li>Incident Response & Analysis</li>
-            </ul>
-            <p>
-                <strong>Tech Stack:</strong> Azure Sentinel, Azure AD, NGFW, Office 365 Defender, CrowdStrike
-            </p>
-            <p>
-                <strong>SOC Services:</strong> We provide 24/7 monitoring, proactive threat hunting, and unified reporting
-                to safeguard your organization around the clock.
-            </p>
-        </section>
+    <hr/>
 
-        <hr />
+    <section id='services'>
+      <h2>Our Services</h2>
+      <p><strong>Custom Cybersecurity Engineering:</strong> We design solutions from the 
+      ground up, using modern frameworks and proven security paradigms to align with 
+      your operational environment and business objectives.</p>
 
-        <section id="contact" aria-labelledby="contact-heading">
-            <h2 id="contact-heading">Contact Us</h2>
-            <p>Email: <a href="mailto:info@veledas.com">info@veledas.com</a></p>
-        </section>
+      <p><strong>AppSec Program Design & Implementation:</strong> We help integrate 
+      SAST/SCA tools like Snyk into developer workflows, perform secrets scanning 
+      with Trufflehog, and set up processes to reduce false positives. Our focus 
+      is on enabling teams to adopt secure practices without disrupting delivery.</p>
 
-        <hr />
+      <p><strong>Real-Time Threat Detection & Incident Response:</strong> We offer 
+      advanced analytics, from code security to runtime analysis in containerized 
+      environments. We correlate vulnerabilities with actual usage, so teams can 
+      tackle the highest-risk issues first.</p>
 
-        <footer>
-            <p>&copy; 2023 Veleda Security</p>
-        </footer>
-    </main>
+      <p><strong>Governance & Stakeholder Alignment:</strong> We guide clients in 
+      establishing champion programs, governance policies, and measurement systems 
+      that ensure security insights reach both developers and senior leadership. 
+      This includes mapping to compliance standards and frameworks.</p>
+
+      <p><strong>Identity & Access Campaigns:</strong> We run certification campaigns 
+      using platforms like SailPoint IdentityNow to ensure continuous, least-privilege 
+      access across the organization.</p>
+
+      <p><strong>24/7 SOC & Monitoring:</strong> Our Security Operations approach 
+      gives you around-the-clock coverage to detect and respond to incidents. 
+      We help unify logs, alerts, and reporting to keep you ahead of potential 
+      intrusions.</p>
+    </section>
+
+    <hr/>
+
+    <section id='siem'>
+      <h2>SIEM Transformation & Optimization</h2>
+      <p>
+        We help organizations modernize their Security Information and Event Management 
+        capabilities. Our approach focuses on reducing log noise, migrating from legacy 
+        platforms to cutting-edge tools, and aligning SIEM data to real-time, 
+        high-fidelity threat detection.
+      </p>
+      <p>
+        We also design and implement SOAR (Security Orchestration, Automation, and Response) 
+        workflows that streamline your response process. Our goal is to create a robust, 
+        scalable monitoring and incident response ecosystem where every alert is meaningful 
+        and every incident is swiftly contained.
+      </p>
+    </section>
+
+    <hr/>
+
+    <section id='contact'>
+      <h2>Contact Us</h2>
+      <p>Ready to strengthen your security posture? Let’s talk about code-to-cloud 
+      engineering, stakeholder engagement, or the finer details of vulnerability 
+      management and governance.</p>
+      <p>Email: info@veledas.com<br/>
+      Phone: +1 (XXX) XXX-XXXX</p>
+    </section>
+
+    <hr/>
+
+    <footer>
+      <p>&copy; 2025 Veleda Security — Boutique Cybersecurity Engineering</p>
+    </footer>
+  </main>
 </body>
-
 </html>
+"""```
