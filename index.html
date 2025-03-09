@@ -1,9 +1,10 @@
-filename,content
-index.html,"""<!DOCTYPE html>
-<html lang='en'>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <meta charset='UTF-8'>
+  <meta charset="UTF-8">
   <title>Veleda Security</title>
+  <link rel="icon" type="image/avif" href="VeledaIcon.avif">
   <style>
     /* Dark background, monospace font */
     body {
@@ -14,137 +15,157 @@ index.html,"""<!DOCTYPE html>
       font-family: 'Courier New', Courier, monospace;
       line-height: 1.6;
     }
+
     main {
       max-width: 800px;
       margin: auto;
       padding: 2em;
     }
+
     nav a {
       color: #6aa6f8;
       text-decoration: none;
       margin-right: 1em;
     }
+
     nav a:hover {
       text-decoration: underline;
     }
-    h1, h2, h3 {
+
+    h1,
+    h2,
+    h3 {
       color: #fff;
     }
+
     hr {
       border: none;
       border-top: 1px solid #333;
       margin: 2em 0;
     }
+
+    header {
+      text-align: center;
+      margin-bottom: 2em;
+    }
+
+    header img {
+      max-width: 150px;
+      height: auto;
+    }
   </style>
 </head>
+
 <body>
   <main>
-    <h1>Veleda Security</h1>
-    <h2>Boutique Cybersecurity Engineering</h2>
+    <header>
+      <img src="VeledaIcon.avif" alt="Veleda Security Logo">
+      <h1>Veleda Security</h1>
+      <h2>Boutique Cybersecurity Engineering</h2>
+    </header>
 
     <nav>
-      <a href='#about'>About</a>
-      <a href='#services'>Services</a>
-      <a href='#contact'>Contact</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
     </nav>
 
     <p>
-      At Veleda Security, we believe in a personalized, hands-on approach to cybersecurity. 
-      Our team is distributed across the United States, with primary offices in New York 
-      and Boston, yet we support organizations on a global scale. We engineer solutions 
-      that match your unique environment and risk profile. Whether it's maturing 
-      application security or configuring end-to-end visibility, our aim is to help 
+      At Veleda Security, we believe in a personalized, hands-on approach to cybersecurity.
+      Our team is distributed across the United States, with primary offices in New York
+      and Boston, yet we support organizations on a global scale. We engineer solutions
+      that match your unique environment and risk profile. Whether it's maturing
+      application security or configuring end-to-end visibility, our aim is to help
       organizations adopt the best technical and governance practices.
     </p>
 
-    <hr/>
+    <hr />
 
-    <section id='about'>
+    <section id="about">
       <h2>About Us</h2>
       <p>
-        Veleda Security started with the idea that every organization has unique challenges. 
-        We tailor everything: from code-to-cloud security, to real-world threat scenarios, 
-        to stakeholder alignment and continuous training. Our engineers, architects, and 
-        analysts focus on delivering measurable value, not just handing over documentation. 
+        Veleda Security started with the idea that every organization has unique challenges.
+        We tailor everything: from code-to-cloud security, to real-world threat scenarios,
+        to stakeholder alignment and continuous training. Our engineers, architects, and
+        analysts focus on delivering measurable value, not just handing over documentation.
       </p>
       <p>
-        We also design governance programs to ensure that security tools and methods 
-        stay relevant over time. Our methodology emphasizes developer enablement, 
-        leadership engagement, and tangible results. We’ve helped clients integrate 
-        SAST, SCA, and secrets detection tools (like Snyk and Trufflehog) into CI/CD 
-        pipelines, and we've guided them in adopting frameworks such as NIST SSDF 
+        We also design governance programs to ensure that security tools and methods
+        stay relevant over time. Our methodology emphasizes developer enablement,
+        leadership engagement, and tangible results. We’ve helped clients integrate
+        SAST, SCA, and secrets detection tools (like Snyk and Trufflehog) into CI/CD
+        pipelines, and we've guided them in adopting frameworks such as NIST SSDF
         and OWASP best practices.
       </p>
     </section>
 
-    <hr/>
+    <hr />
 
-    <section id='services'>
+    <section id="services">
       <h2>Our Services</h2>
-      <p><strong>Custom Cybersecurity Engineering:</strong> We design solutions from the 
-      ground up, using modern frameworks and proven security paradigms to align with 
-      your operational environment and business objectives.</p>
+      <p><strong>Custom Cybersecurity Engineering:</strong> We design solutions from the
+        ground up, using modern frameworks and proven security paradigms to align with
+        your operational environment and business objectives.</p>
 
-      <p><strong>AppSec Program Design & Implementation:</strong> We help integrate 
-      SAST/SCA tools like Snyk into developer workflows, perform secrets scanning 
-      with Trufflehog, and set up processes to reduce false positives. Our focus 
-      is on enabling teams to adopt secure practices without disrupting delivery.</p>
+      <p><strong>AppSec Program Design & Implementation:</strong> We help integrate
+        SAST/SCA tools like Snyk into developer workflows, perform secrets scanning
+        with Trufflehog, and set up processes to reduce false positives. Our focus
+        is on enabling teams to adopt secure practices without disrupting delivery.</p>
 
-      <p><strong>Real-Time Threat Detection & Incident Response:</strong> We offer 
-      advanced analytics, from code security to runtime analysis in containerized 
-      environments. We correlate vulnerabilities with actual usage, so teams can 
-      tackle the highest-risk issues first.</p>
+      <p><strong>Real-Time Threat Detection & Incident Response:</strong> We offer
+        advanced analytics, from code security to runtime analysis in containerized
+        environments. We correlate vulnerabilities with actual usage, so teams can
+        tackle the highest-risk issues first.</p>
 
-      <p><strong>Governance & Stakeholder Alignment:</strong> We guide clients in 
-      establishing champion programs, governance policies, and measurement systems 
-      that ensure security insights reach both developers and senior leadership. 
-      This includes mapping to compliance standards and frameworks.</p>
+      <p><strong>Governance & Stakeholder Alignment:</strong> We guide clients in
+        establishing champion programs, governance policies, and measurement systems
+        that ensure security insights reach both developers and senior leadership.
+        This includes mapping to compliance standards and frameworks.</p>
 
-      <p><strong>Identity & Access Campaigns:</strong> We run certification campaigns 
-      using platforms like SailPoint IdentityNow to ensure continuous, least-privilege 
-      access across the organization.</p>
+      <p><strong>Identity & Access Campaigns:</strong> We run certification campaigns
+        using platforms like SailPoint IdentityNow to ensure continuous, least-privilege
+        access across the organization.</p>
 
-      <p><strong>24/7 SOC & Monitoring:</strong> Our Security Operations approach 
-      gives you around-the-clock coverage to detect and respond to incidents. 
-      We help unify logs, alerts, and reporting to keep you ahead of potential 
-      intrusions.</p>
+      <p><strong>24/7 SOC & Monitoring:</strong> Our Security Operations approach
+        gives you around-the-clock coverage to detect and respond to incidents.
+        We help unify logs, alerts, and reporting to keep you ahead of potential
+        intrusions.</p>
     </section>
 
-    <hr/>
+    <hr />
 
-    <section id='siem'>
+    <section id="siem">
       <h2>SIEM Transformation & Optimization</h2>
       <p>
-        We help organizations modernize their Security Information and Event Management 
-        capabilities. Our approach focuses on reducing log noise, migrating from legacy 
-        platforms to cutting-edge tools, and aligning SIEM data to real-time, 
+        We help organizations modernize their Security Information and Event Management
+        capabilities. Our approach focuses on reducing log noise, migrating from legacy
+        platforms to cutting-edge tools, and aligning SIEM data to real-time,
         high-fidelity threat detection.
       </p>
       <p>
-        We also design and implement SOAR (Security Orchestration, Automation, and Response) 
-        workflows that streamline your response process. Our goal is to create a robust, 
-        scalable monitoring and incident response ecosystem where every alert is meaningful 
+        We also design and implement SOAR (Security Orchestration, Automation, and Response)
+        workflows that streamline your response process. Our goal is to create a robust,
+        scalable monitoring and incident response ecosystem where every alert is meaningful
         and every incident is swiftly contained.
       </p>
     </section>
 
-    <hr/>
+    <hr />
 
-    <section id='contact'>
+    <section id="contact">
       <h2>Contact Us</h2>
-      <p>Ready to strengthen your security posture? Let’s talk about code-to-cloud 
-      engineering, stakeholder engagement, or the finer details of vulnerability 
-      management and governance.</p>
-      <p>Email: info@veledas.com<br/>
-      Phone: +1 (XXX) XXX-XXXX</p>
+      <p>Ready to strengthen your security posture? Let’s talk about code-to-cloud
+        engineering, stakeholder engagement, or the finer details of vulnerability
+        management and governance.</p>
+      <p>Email: info@veledas.com</p>
     </section>
 
-    <hr/>
+    <hr />
 
     <footer>
       <p>&copy; 2025 Veleda Security — Boutique Cybersecurity Engineering</p>
     </footer>
   </main>
 </body>
+
 </html>
-"""```
